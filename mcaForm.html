@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+
+<div>
+    <h1 align="center">Registration Form for MCA 2022</h1>
+    <form action="">
+        <fieldset>
+            <legend><h3>Personal Details:</h3> </legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name" size="50"><br> <br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" size="50"> <br><br>
+
+            <label for="profile_img">
+                <i>Upload Recent Passport Size Photograph: </i>
+            </label>
+                <br><br>
+            <input type="file" name="profile_img" id="profile_img">
+            <input type="submit" value="Upload"> 
+            <br><br>
+
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female">
+            <label for="gender">Other</label>
+            <input type="radio" name="gender" value="other">
+            <br> <br>
+            <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label for="phone">Mobile Number:</label>
+            <input type="tel" id="phone" name="phone" min="13" max="13" value="+91"> 
+            <input type="submit" value="Get OTP">
+            <br><br>
+
+            <label for="fname">Father's name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Father's name" size="50"><br> <br>
+            <label for="lname">Mother's name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Mother's name" size="50"> <br><br>
+
+            
+        </fieldset>
+        <br> <br>
+        <fieldset>
+            <legend><h3>Address</h3></legend>
+            <label for="address">Current Address:</label><br>
+            <textarea name="address" id="adress" cols="50" rows="5"></textarea><br><br>
+            
+            <label for="address">Permanent Address:</label><br>
+            <textarea name="address" id="adress" cols="50" rows="5"></textarea> <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Education Details</h3></legend>
+            <h4>Metric/10<sup>th</sup> Details:</h4>
+            <hr>
+            <label for="school_name">School:</label><br>
+            <input type="text" name="school_name" id="school_name" placeholder="Enter School Name" size="50">
+            <br><br>
+
+            <label for="metric">Score:</label>
+            <input type="number" name="metric"  min="1" max="10" size="10">
+            <input type="radio" name="marks" value="percent">
+            <label for="gender">% percent</label>
+            <input type="radio" name="marks" value="cgpa">
+            <label for="gender">CGPA</label>
+             <br><br>
+            <label for="roll_num">Roll Number: </label>
+            <input type="text" name="metric" size="15" placeholder="Roll number">
+            <br><br>
+            <label for="birthday">Passing Month & Year:</label>
+            <input type="month" id="birthday" name="birthday"><br><br>
+
+            <!-- <input type="submit" value="confirm"> -->
+            <br>
+            <h4>Plus2/12<sup>th</sup> Details:</h4>
+            <hr>
+            <label for="school_name">School/College:</label><br>
+            <input type="text" name="school_name" id="school_name" placeholder="Enter School/College Name" size="50">
+            <br><br>
+
+            <label for="metric">Score:</label>
+            <input type="number" name="metric"  min="1" max="10" size="10">
+            <input type="radio" name="marks" value="percent">
+            <label for="gender">% percent</label>
+            <input type="radio" name="marks" value="cgpa">
+            <label for="gender">CGPA</label>
+            <p>
+                <strong>Note:</strong> Check with your Board/University for CGPA to % conversions or<i>vice-versa.</i>
+            </p>
+             <br><br>
+            <label for="roll_num">Roll Number: </label>
+            <input type="text" name="metric" size="15" placeholder="Roll number">
+            <br><br>
+            <label for="birthday">Passing Month & Year:</label>
+            <input type="month" id="birthday" name="birthday"><br><br>
+
+            <!-- <input type="submit" value="confirm"> -->
+
+            <br>
+
+            <h4>Graduation/+3 Details:</h4>
+            <hr>
+            <label for="school_name">College/University:</label><br>
+            <input type="text" name="school_name" id="school_name" placeholder="Enter College/University Name" size="50">
+            <br><br>
+
+            <label for="metric">Score:</label>
+            <input type="number" name="metric"  min="1" max="10" size="10">
+            <input type="radio" name="marks" value="percent">
+            <label for="gender">% percent</label>
+            <input type="radio" name="marks" value="cgpa">
+            <label for="gender">CGPA</label>
+            <p>
+                <strong>Note:</strong> Check with your Board/University for CGPA to % conversions or<i>vice-versa.</i>
+            </p>
+             <br><br>
+            <label for="roll_num">Roll Number: </label>
+            <input type="text" name="metric" size="15" placeholder="Roll number">
+            <br><br>
+            <label for="birthday">Passing Month & Year:</label>
+            <input type="month" id="birthday" name="birthday"><br><br>
+
+            <!-- <input type="submit" value="confirm"> -->
+
+        </fieldset>
+        <div align="center" style="font-size: 32px;">
+            <button type="button">Submit</button>   <button type="reset">Reset</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
